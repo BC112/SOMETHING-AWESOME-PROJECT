@@ -1,9 +1,6 @@
-const portNum = 8000;
-
-const url = `http://localhost:${portNum}/sendmessage`;
+const url = "http://localhost:8000/sendmessage";
 
 const blockedDomains = [
-    "*://*.localhost/*",
     "*://*.analytics.163.com/*",
     "*://*.mt.analytics.163.com/*",
     "*://*.crash.163.com/*",
